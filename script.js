@@ -1,14 +1,5 @@
 'use strict';
 
-// console.log(document.querySelector('.message').textContent);
-
-// document.querySelector('.message').textContent = 'Stop Guessing';
-
-// document.querySelector('.number').textContent = 13;
-// document.querySelector('.score').textContent = 23;
-
-// document.querySelector('.guess').value = 40;
-// console.log(document.querySelector('.guess').value);
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
